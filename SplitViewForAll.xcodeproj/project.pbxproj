@@ -16,6 +16,7 @@
 		B6004D161B5AC1FD0032EB4D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6004D151B5AC1FD0032EB4D /* DetailViewController.swift */; };
 		B6004D181B5AC21A0032EB4D /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6004D171B5AC21A0032EB4D /* SplitViewController.swift */; };
 		B6004D1A1B5AC23B0032EB4D /* SizeTraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6004D191B5AC23B0032EB4D /* SizeTraitViewController.swift */; };
+		B67FF4971B5AD79E008B75BA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B67FF4961B5AD79E008B75BA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		B6004D151B5AC1FD0032EB4D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B6004D171B5AC21A0032EB4D /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		B6004D191B5AC23B0032EB4D /* SizeTraitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeTraitViewController.swift; sourceTree = "<group>"; };
+		B67FF4961B5AD79E008B75BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		B6004CE51B5ABAB50032EB4D = {
 			isa = PBXGroup;
 			children = (
+				B67FF4961B5AD79E008B75BA /* README.md */,
 				B6004CF01B5ABAB50032EB4D /* SplitViewForAll */,
 				B6004D061B5ABAB50032EB4D /* SplitViewForAllTests */,
 				B6004CEF1B5ABAB50032EB4D /* Products */,
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67FF4971B5AD79E008B75BA /* README.md in Sources */,
 				B6004D1A1B5AC23B0032EB4D /* SizeTraitViewController.swift in Sources */,
 				B6004D181B5AC21A0032EB4D /* SplitViewController.swift in Sources */,
 				B6004CF41B5ABAB50032EB4D /* AppDelegate.swift in Sources */,
@@ -425,6 +429,7 @@
 				B6004D0F1B5ABAB50032EB4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6004D101B5ABAB50032EB4D /* Build configuration list for PBXNativeTarget "SplitViewForAllTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +438,7 @@
 				B6004D121B5ABAB50032EB4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
