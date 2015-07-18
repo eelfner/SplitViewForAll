@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B6004CF41B5ABAB50032EB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6004CF31B5ABAB50032EB4D /* AppDelegate.swift */; };
-		B6004CF61B5ABAB50032EB4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6004CF51B5ABAB50032EB4D /* ViewController.swift */; };
 		B6004CF91B5ABAB50032EB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6004CF71B5ABAB50032EB4D /* Main.storyboard */; };
 		B6004CFB1B5ABAB50032EB4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6004CFA1B5ABAB50032EB4D /* Images.xcassets */; };
 		B6004CFE1B5ABAB50032EB4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6004CFC1B5ABAB50032EB4D /* LaunchScreen.xib */; };
 		B6004D0A1B5ABAB50032EB4D /* SplitViewForAllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6004D091B5ABAB50032EB4D /* SplitViewForAllTests.swift */; };
+		B6004D141B5AC1E70032EB4D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6004D131B5AC1E70032EB4D /* MasterViewController.swift */; };
+		B6004D161B5AC1FD0032EB4D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6004D151B5AC1FD0032EB4D /* DetailViewController.swift */; };
+		B6004D181B5AC21A0032EB4D /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6004D171B5AC21A0032EB4D /* SplitViewController.swift */; };
+		B6004D1A1B5AC23B0032EB4D /* SizeTraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6004D191B5AC23B0032EB4D /* SizeTraitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		B6004CEE1B5ABAB50032EB4D /* SplitViewForAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewForAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6004CF21B5ABAB50032EB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6004CF31B5ABAB50032EB4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6004CF51B5ABAB50032EB4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6004CF81B5ABAB50032EB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6004CFA1B5ABAB50032EB4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B6004CFD1B5ABAB50032EB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B6004D031B5ABAB50032EB4D /* SplitViewForAllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitViewForAllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6004D081B5ABAB50032EB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6004D091B5ABAB50032EB4D /* SplitViewForAllTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewForAllTests.swift; sourceTree = "<group>"; };
+		B6004D131B5AC1E70032EB4D /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		B6004D151B5AC1FD0032EB4D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B6004D171B5AC21A0032EB4D /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		B6004D191B5AC23B0032EB4D /* SizeTraitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeTraitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +84,13 @@
 			isa = PBXGroup;
 			children = (
 				B6004CF31B5ABAB50032EB4D /* AppDelegate.swift */,
-				B6004CF51B5ABAB50032EB4D /* ViewController.swift */,
 				B6004CF71B5ABAB50032EB4D /* Main.storyboard */,
 				B6004CFA1B5ABAB50032EB4D /* Images.xcassets */,
 				B6004CFC1B5ABAB50032EB4D /* LaunchScreen.xib */,
+				B6004D131B5AC1E70032EB4D /* MasterViewController.swift */,
+				B6004D151B5AC1FD0032EB4D /* DetailViewController.swift */,
+				B6004D171B5AC21A0032EB4D /* SplitViewController.swift */,
+				B6004D191B5AC23B0032EB4D /* SizeTraitViewController.swift */,
 				B6004CF11B5ABAB50032EB4D /* Supporting Files */,
 			);
 			path = SplitViewForAll;
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6004CF61B5ABAB50032EB4D /* ViewController.swift in Sources */,
+				B6004D1A1B5AC23B0032EB4D /* SizeTraitViewController.swift in Sources */,
+				B6004D181B5AC21A0032EB4D /* SplitViewController.swift in Sources */,
 				B6004CF41B5ABAB50032EB4D /* AppDelegate.swift in Sources */,
+				B6004D141B5AC1E70032EB4D /* MasterViewController.swift in Sources */,
+				B6004D161B5AC1FD0032EB4D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SplitViewForAll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SplitViewForAll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
